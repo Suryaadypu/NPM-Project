@@ -30,3 +30,6 @@ export function createApp({ statistics = createStatistics() } = {}) {
 
   return app;
 }
+
+// Vercel's Express runtime discovers this module and expects a default app export.
+export default createApp();
