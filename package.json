@@ -1,0 +1,18 @@
+{
+  "name": "retryflow-demo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "An Express dashboard demonstrating the published retryflow-lite package.",
+  "type": "module",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node --test test/*.test.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "retryflow-lite": "^1.0.0"
+  }
+}
